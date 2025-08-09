@@ -1,0 +1,49 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+
+.body-container {
+    display: flex;
+    margin-top: 5%;
+}
+
+.container1 {
+    width: 70%;
+}
+
+.form-cintainer {
+    width: 30%;
+}
+
+.describe1 {
+    width: 85%;
+    background-color: blue;
+    margin: auto;
+}
+
+.describe1 p {
+    /* font-size: 50%; */
+}
+
+.imgcontainer {
+    width: 85%;
+    margin: auto;
+}
+
+.describe2 {
+    width: 85%;
+    margin: auto;
+    font-size: smaller;
+}
+
+h1 {
+    font-size: 220%;
+    color: #9E92D0;
+}
+
+h6 {
+    font-size: small
+}
+
+Heroku Purple: #6762A6 Heroku Light Purple: #9E92D0 Heroku Charcoal: #333347 Heroku Gray: #F4F4F4 Heroku White: #FFFFFF

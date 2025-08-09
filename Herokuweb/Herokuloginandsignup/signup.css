@@ -1,0 +1,442 @@
+/* Reset and base styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3A2778;
+    color: #333;
+    line-height: 1.5;
+    font-size: 1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+.header {
+    width: 85%;
+    max-width: 1400px;
+    height: 8%;
+    background-color: #3A2778;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 0.1%;
+    margin-bottom: -2%;
+}
+
+.header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    margin-left: 1%;
+}
+
+.logo {
+    height: 80%;
+    width: auto;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    width: 20%;
+    justify-content: flex-end;
+    margin-right: 1%;
+    text-wrap: nowrap;
+}
+
+.login-btn {
+    background-color: #2E1F60;
+    border: none;
+    color: white;
+    padding: 4.0% 5.5% 4.0% 5.5%;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.login-btn:hover {
+    background-color: #281B54;
+    color: white;
+}
+
+.login-btn:active{
+    border: 2px solid #1969CA;
+}
+
+
+.login-btn a {
+    color: white;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+/* Main content */
+.main-content {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0;
+    color: white;
+}
+
+.main-heading {
+    width: 60%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-bottom: 1%;
+}
+
+/* Content container */
+.content-container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #F9F9FB;
+    color: #333;
+    border-radius: 0.5rem;
+    display: flex;
+    padding: 3rem 4rem;
+    gap: 3rem;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin: 2rem auto 4rem auto;
+    align-items: flex-start;
+    margin-bottom: -2rem;
+    background-image: url("./page-illustration-11400c2a5109317ad7e99571ba2a42bc55522ffa8ea6f9dcdff99737ab6149ac.png");
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+/* Left content */
+.left-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Impact heading and subheading */
+.impact-heading {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    color: #7958AA;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    
+}
+
+.impact-subheading {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: rgb(97, 97, 97);
+    line-height: 1.4;
+    margin-left: -5%;
+    margin-right: -5%;
+}
+
+/* Logos */
+.logos {
+    display: flex;
+    justify-content: flex-start;
+    gap: 4rem;
+    margin-bottom: 1rem;
+}
+
+.logo-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+    align-items: center;
+}
+
+.company-logo {
+    max-width: 120%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Specific logo size adjustments */
+.logo-column img.live-nation {
+    max-width: 140%;
+}
+
+.logo-column img.goosehead {
+    max-width: 110%;
+}
+
+.logo-column img.healthsherpa {
+    max-width: 130%;
+}
+
+.logo-column img.airbase {
+    max-width: 130%;
+}
+
+.logo-column img.align {
+    max-width: 120%;
+}
+
+/* Testimonial */
+.testimonial {
+    background-color: #F2F2F5;
+    /* border-radius: 1rem; */
+    padding: 2.5rem 3rem;
+    position: relative;
+    font-size: 1.2rem;
+    color: #4f4f4f;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(107,94,138,0.2);
+    font-weight: lighter;
+    width: 115%;
+}
+
+.quote-icon {
+    font-size: 4rem;
+    color: #b3a9e3;
+    position: absolute;
+    top: 1rem;
+}
+
+.left-quote {
+    left: 1rem;
+}
+
+.right-quote {
+    right: 2rem;
+    top: auto;
+    bottom: 4rem;
+}
+
+.testimonial-text {
+    margin: 0 5%;
+    margin-right: 12%;
+    margin-left: 10%;
+    text-align: left;
+    /* font-style: italic; */
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+
+.author-logo {
+    height: 3.5rem;
+    width: auto;
+    border-radius: 50%;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    color: #6b5e8a;
+    text-align: left;
+}
+
+.author-name {
+    font-weight: 700;
+    color: #6b5e8a;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+/* Features */
+.features {
+    display: flex;
+    gap: 4rem;
+}
+
+.feature-column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.feature-column h3 {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: -0.5rem;
+    color: #464646;
+}
+
+.feature-column p {
+    font-size: 1.05rem;
+    line-height: 1.4;
+}
+
+/* Right content */
+.right-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-right: -10%;
+    max-height: 800px;
+}
+
+.signup-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    padding: 3rem 3.5rem;
+    width: 100%;
+    height: auto;
+    color: #333;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: relative;
+    top: -3rem;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s ease;
+    /* margin-right: -40%; */
+    margin-top: 10%;
+    /* align-items: center; */
+}
+
+.signup-card:hover {
+    box-shadow: 0 30px 60px rgba(0,0,0,0.3);
+}
+
+.signup-card h2 {
+    font-weight: lighter;
+    font-size: 1.4rem;
+    margin-top: -0.5rem;
+    color: #7958AA;
+    margin-left: -10%;
+}
+
+.signup-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-left: -10%;
+    margin-right: -10%;
+}
+
+.signup-card input[type="text"],
+.signup-card input[type="email"],
+.signup-card select {
+    padding: 0.8rem 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.signup-card small {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.checkbox-label {
+    font-size: 0.9rem;
+    color: #666;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-top: 0.3rem;
+}
+
+.privacy-text {
+    font-size: 0.75rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.privacy-text a {
+    color: #6b5e8a;
+    text-decoration: underline;
+}
+
+.create-account-btn {
+    background-color: #1969CA;
+    color: white;
+    border: none;
+    padding: 1rem 0;
+    border-radius: 0.5rem;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-left: 1%;
+}
+
+.create-account-btn:hover {
+    background-color: #0650AA;
+}
+
+.recaptcha-text {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.5rem;
+    margin-left: -10%;
+}
+
+.recaptcha-text a {
+    color: #1969CA;
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    background-color: #3A2778;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding: 2% 2%;
+    line-height: 1.9;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: underline;
+    margin: 0 0.3rem;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo {
+    width: 13%;
+}

@@ -1,0 +1,360 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+*{
+
+}
+.productHomeheader{
+    width: 100%;
+    height: 60px;
+    background-color: #320C63;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+
+}
+.left_product{
+    width: 40%;
+    height: 100%;
+    display: flex;
+   align-items: center;
+   font-weight: 400;
+   color: white;
+   gap: 3px;
+}
+.left_product a{
+    font-weight: 400;
+   color: white;
+   display: flex; 
+   align-items: center;
+   gap: 5px;
+}
+.right_product{
+    width: 40%;
+    height: 100%; 
+    
+}
+.search_signup{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.search-button{
+    width: 80px;
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: white;
+}
+.login-button{
+      width: 80px;
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: white; 
+}
+.signupbtn{
+    width: 80px;
+    height: 40px;
+   background-color:#220944;
+   border: 0;
+    outline: 0;
+    color: white; 
+    border-radius: 5px;
+}
+.producthero{
+    background-color: #42127F;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productheroWrapper{
+    width: 90%;
+    height: 90%;
+  
+}
+.logoleftheder img{
+    width: 180px;
+}
+.logoleftheder{
+    width: 30%;
+    height: 100%;
+}
+.upheaderwrapper{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+.logoright{
+     width: 75%;
+    height: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    /* background-color: red; */
+  
+}
+.dropdownbuttons{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: transparent;
+outline: 0;
+border: 0;
+color: white;
+font-size: 21px;
+font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+}
+.material-symbols-outlined{
+    color: gray;
+}
+.herotext{
+    text-align: center;
+  
+}
+.herotext h1{
+    font-size: 35px;
+      color: white;
+}
+.herotext p{
+font-size: 20px;
+  color: gray;
+}
+
+.herotext button{
+    width: 170px;
+    height: 40px;
+    background-color: #0176D3;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 7px;
+}
+.options{
+    width: 100%;
+    height: 40px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(209, 208, 208);
+}
+.optionsHolder{
+    width: 40%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.featured :hover {
+    font-size: 15px;
+    color: #320C63;
+    border-bottom: 2px solid #320C63;
+}
+.featured{
+    font-size: 15px; 
+}
+.customerheroku{
+    width: 100%;
+    height: 150px;
+  text-align: center;
+  color: #320C63;
+}
+.customerheroku p{
+    font-size: 20px;
+}
+.Launchpad{
+    width: 100%;
+   height: inherit;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lauchpadwra{
+    width: 90%;
+    height: 100%;
+    /* background-color: tomato; */
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+    
+}
+.cardlaunch{
+    width: 350px;
+    height: 100px;
+     border-radius: 7px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.cardholder{
+    width: 350px;
+    height: 200px;
+    /* background-color: orange; */
+
+
+}
+.cardlaunch img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+.getbtton{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.viewall{
+    width: 220px;
+    height: 40px;
+    background-color: #0176D3;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.left-sp{
+    width:50%;
+    height: 100%;
+    display: flex ;
+    
+}
+.speechwraps{
+    width: 90%;
+    height: 100%;
+ 
+}
+.speech{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+.leftinner-speech{
+    width: 20%;
+    height: 100%;  
+    display: flex;
+    justify-content: center;
+    /* align-items: center;  */
+
+}
+.leftinner-speech img{
+  width: 70px;
+    object-fit: contain;
+}
+.righerinnser-speech{
+   width: 80%;
+    height: 100%;
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #320C63;
+
+}
+
+.righerinnser-speech p{
+    font-size: 20px;
+}
+.storiesofcommunity{
+    width: 100%;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.storywrapper{
+    width: 90%;
+    height: 100%;
+  
+}
+.storyup{
+    width: 100%;
+    height: 15%;
+   text-align: center;
+   color: #320C63;
+}
+.storyup p{
+    font-size: 20px;
+
+}
+.storydown{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.srotybox{
+    width: 30%;
+    height: 350px;
+    /* background-color:blue; */
+    display: flex;
+}
+.leftstory{
+    width: 15%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+justify-content: center;
+}
+.rightstory{
+    width: 85%;
+    height: 100%;
+   /* background-color: seagreen; */
+}
+.rightstory h2{
+    font-size: 20px;
+    color: #0176D3;
+    font-weight: 400;   
+}
+.rightstory p{
+    font-size: 18px;
+
+}
+.rightstory b{
+    color: gray;
+}
+.leftstory svg{
+width: 30px;
+    object-fit: contain;
+  fill: #320C63;
+}
+.buttoner{
+width: 100%;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.buttoner button{
+    width: 250px;
+    height: 40px;
+    background-color: #0176D3;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    color: white;
+}
+

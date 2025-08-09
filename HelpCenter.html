@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Heroku Support</title>
+  <link rel="stylesheet" href="HelpCenter.css">
+</head>
+<body>
+ <header class="header">
+    <div class="logo">
+      <a href=""><img src="/images/heroku_from_sf_dark.png" alt="Heroku Logo"></a>
+      <a href=""><span class="help">Help</span></a>
+    </div>
+  <div class="menu-container">
+    <div class="hamburger" onclick="toggleMenu()">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+
+    <ul class="dropdown" id="dropdownMenu">
+      <li>
+        <svg class="icon" viewBox="0 0 24 24"><path d="M10 4H2v16h20V6H12l-2-2z"/></svg>
+        Dashboard
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg>
+        Analytics
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24"><path d="M19.14 12.936a7.962 7.962 0 0 0 0-1.872l2.036-1.582a.5.5 0 0 0 .121-.63l-1.928-3.341a.5.5 0 0 0-.607-.222l-2.4.96a7.95 7.95 0 0 0-1.62-.936l-.36-2.52A.5.5 0 0 0 14.9 2h-3.8a.5.5 0 0 0-.493.416l-.36 2.52a7.95 7.95 0 0 0-1.62.936l-2.4-.96a.5.5 0 0 0-.607.222L2.703 8.852a.5.5 0 0 0 .121.63l2.036 1.582a7.962 7.962 0 0 0 0 1.872L2.824 14.63a.5.5 0 0 0-.121.63l1.928 3.341a.5.5 0 0 0 .607.222l2.4-.96a7.95 7.95 0 0 0 1.62.936l.36 2.52a.5.5 0 0 0 .493.416h3.8a.5.5 0 0 0 .493-.416l.36-2.52a7.95 7.95 0 0 0 1.62-.936l2.4.96a.5.5 0 0 0 .607-.222l1.928-3.341a.5.5 0 0 0-.121-.63l-2.036-1.582zM12 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+        Settings
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12c0 1.103.897 2 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 2v.511L12 13 4 6.511V6h16zM4 18V8.489l8 6.999 8-6.999V18H4z"/></svg>
+        Messages
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24"><path d="M12 22c1.104 0 2-.896 2-2h-4c0 1.104.896 2 2 2zm6.707-5.293L18 15V9c0-3.309-2.691-6-6-6S6 5.691 6 9v6l-.707 1.707A.996.996 0 0 0 5 18h14a.996.996 0 0 0 .707-1.707z"/></svg>
+        Notifications
+      </li>
+      <li>
+        <svg class="icon" viewBox="0 0 24 24"><path d="M11 18h2v-2h-2v2zm1-16C6.486 2 2 6.486 2 12c0 5.513 4.486 10 10 10s10-4.487 10-10c0-5.514-4.486-10-10-10zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg>
+        Help
+      </li>
+    </ul>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('dropdownMenu').classList.toggle('show');
+    }
+  </script>
+  </header>
+<div class="header2">
+  <a href="#">My tickets</a>
+  <a href="#">Create a ticket</a>
+  <a href="#">Enterprise Resources</a>
+</div>
+
+<main>
+  <h2>Welcome to Heroku Support</h2>
+
+  <div class="search-box">
+    <input type="search" placeholder="Search for help" />
+    <button>Search</button>
+  </div>
+
+  <div class="trending-container">
+    <div class="trending-header">
+      <h4>TRENDING ARTICLES</h4>
+    </div>
+
+    <div class="articles">
+      <div class="article">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M21 15L15 20.996L4.00221 21C3.4487 21 3 20.5551 3 20.0066V3.9934C3 3.44476 3.44495 3 3.9934 3H20.0066C20.5552 3 21 3.45576 21 4.00247V15ZM19 5H5V19H13V14C13 13.4872 13.386 13.0645 13.8834 13.0067L14 13L19 12.999V5ZM18.171 14.999L15 15V18.169L18.171 14.999Z"></path></svg>
+        Before opening a support ticket
+      </div>
+      <div class="article">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M21 15L15 20.996L4.00221 21C3.4487 21 3 20.5551 3 20.0066V3.9934C3 3.44476 3.44495 3 3.9934 3H20.0066C20.5552 3 21 3.45576 21 4.00247V15ZM19 5H5V19H13V14C13 13.4872 13.386 13.0645 13.8834 13.0067L14 13L19 12.999V5ZM18.171 14.999L15 15V18.169L18.171 14.999Z"></path></svg>
+        Heroku-20 End-of-Life FAQ
+      </div>
+      <div class="article">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M21 15L15 20.996L4.00221 21C3.4487 21 3 20.5551 3 20.0066V3.9934C3 3.44476 3.44495 3 3.9934 3H20.0066C20.5552 3 21 3.45576 21 4.00247V15ZM19 5H5V19H13V14C13 13.4872 13.386 13.0645 13.8834 13.0067L14 13L19 12.999V5ZM18.171 14.999L15 15V18.169L18.171 14.999Z"></path></svg>
+        What should I do if I'm locked out of my Heroku account?
+      </div>
+    </div>
+
+    <div class="full-width-article">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M21 15L15 20.996L4.00221 21C3.4487 21 3 20.5551 3 20.0066V3.9934C3 3.44476 3.44495 3 3.9934 3H20.0066C20.5552 3 21 3.45576 21 4.00247V15ZM19 5H5V19H13V14C13 13.4872 13.386 13.0645 13.8834 13.0067L14 13L19 12.999V5ZM18.171 14.999L15 15V18.169L18.171 14.999Z"></path></svg>
+      Heroku Key-Value Store Upgrade - SSL/TLS Connection Issues
+    </div>
+  </div>
+</main>
+<div class="container">
+  <p>Select a topic, then pick a category and we'll show you commonly asked questions and answers.
+  <br>
+    Looking for more help?
+    <a href="#">Ask the community</a> or
+    <a href="#">create a ticket</a>
+    to get it routed to the best person to answer it.
+  </p>
+
+  <!-- Grid 1 -->
+  <div class="grid">
+    <a href="">
+    <div class="tile">
+      <div class="tile-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M12 1L21.5 6.5V17.5L12 23L2.5 17.5V6.5L12 1ZM12 3.311L4.5 7.65311V16.3469L12 20.689L19.5 16.3469V7.65311L12 3.311ZM12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12C16 14.2091 14.2091 16 12 16ZM12 14C13.1046 14 14 13.1046 14 12C14 10.8954 13.1046 10 12 10C10.8954 10 10 10.8954 10 12C10 13.1046 10.8954 14 12 14Z"></path></svg>
+      </div>
+      <div class="tile-title">General Platform Features</div>
+    </div>
+    </a>
+    <a href="">
+    <div class="tile">
+      <div class="tile-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2ZM12.1597 16C10.1243 16 8.29182 16.8687 7.01276 18.2556C8.38039 19.3474 10.114 20 12 20C13.9695 20 15.7727 19.2883 17.1666 18.1081C15.8956 16.8074 14.1219 16 12.1597 16ZM12 4C7.58172 4 4 7.58172 4 12C4 13.8106 4.6015 15.4807 5.61557 16.8214C7.25639 15.0841 9.58144 14 12.1597 14C14.6441 14 16.8933 15.0066 18.5218 16.6342C19.4526 15.3267 20 13.7273 20 12C20 7.58172 16.4183 4 12 4ZM12 5C14.2091 5 16 6.79086 16 9C16 11.2091 14.2091 13 12 13C9.79086 13 8 11.2091 8 9C8 6.79086 9.79086 5 12 5ZM12 7C10.8954 7 10 7.89543 10 9C10 10.1046 10.8954 11 12 11C13.1046 11 14 10.1046 14 9C14 7.89543 13.1046 7 12 7Z"></path></svg>
+      </div>
+      <div class="tile-title">Account Management</div>
+    </div>
+    </a>
+    <a href="">
+    <div class="tile">
+      <div class="tile-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z"></path></svg>
+      </div>
+      <div class="tile-title">Domains & Routing</div>
+    </div>
+    </a>
+    <a href="">
+    <div class="tile">
+      <div class="tile-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M19 10H20C20.5523 10 21 10.4477 21 11V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V11C3 10.4477 3.44772 10 4 10H5V9C5 5.13401 8.13401 2 12 2C15.866 2 19 5.13401 19 9V10ZM5 12V20H19V12H5ZM11 14H13V18H11V14ZM17 10V9C17 6.23858 14.7614 4 12 4C9.23858 4 7 6.23858 7 9V10H17Z"></path></svg>
+      </div>
+      <div class="tile-title">Security</div>
+    </div>
+    </a>
+    <a href="">
+    <div class="tile">
+      <div class="tile-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M3.00488 2.99979H21.0049C21.5572 2.99979 22.0049 3.4475 22.0049 3.99979V19.9998C22.0049 20.5521 21.5572 20.9998 21.0049 20.9998H3.00488C2.4526 20.9998 2.00488 20.5521 2.00488 19.9998V3.99979C2.00488 3.4475 2.4526 2.99979 3.00488 2.99979ZM20.0049 11.9998H4.00488V18.9998H20.0049V11.9998ZM20.0049 7.99979V4.99979H4.00488V7.99979H20.0049Z"></path></svg>
+      </div>
+      <div class="tile-title">Billing, Verification & Payments</div>
+    </div>
+    </a>
+  </div>
+
+  <!-- Grid 2 -->
+  <div class="grid">
+    <a href="">
+    <div class="tile">
+      <div class="tile-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M11 19V9H4V19H11ZM11 7V4C11 3.44772 11.4477 3 12 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V8C2 7.44772 2.44772 7 3 7H11ZM13 5V19H20V5H13ZM5 16H10V18H5V16ZM14 16H19V18H14V16ZM14 13H19V15H14V13ZM14 10H19V12H14V10ZM5 13H10V15H5V13Z"></path></svg>
+      </div>
+      <div class="tile-title">Heroku Postgres</div>
+    </div>
+    </a>
+    <a href="">
+    <div class="tile">
+      <div class="tile-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M12 1L21.5 6.5V17.5L12 23L2.5 17.5V6.5L12 1ZM5.49388 7.0777L12.0001 10.8444L18.5062 7.07774L12 3.311L5.49388 7.0777ZM4.5 8.81329V16.3469L11.0001 20.1101V12.5765L4.5 8.81329ZM13.0001 20.11L19.5 16.3469V8.81337L13.0001 12.5765V20.11Z"></path></svg>
+      </div>
+      <div class="tile-title">Heroku Connect</div>
+    </div>
+    </a>
+    <a href="">
+    <div class="tile">
+      <div class="tile-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M2 22C2 17.5817 5.58172 14 10 14C14.4183 14 18 17.5817 18 22H16C16 18.6863 13.3137 16 10 16C6.68629 16 4 18.6863 4 22H2ZM10 13C6.685 13 4 10.315 4 7C4 3.685 6.685 1 10 1C13.315 1 16 3.685 16 7C16 10.315 13.315 13 10 13ZM10 11C12.21 11 14 9.21 14 7C14 4.79 12.21 3 10 3C7.79 3 6 4.79 6 7C6 9.21 7.79 11 10 11ZM18.2837 14.7028C21.0644 15.9561 23 18.752 23 22H21C21 19.564 19.5483 17.4671 17.4628 16.5271L18.2837 14.7028ZM17.5962 3.41321C19.5944 4.23703 21 6.20361 21 8.5C21 11.3702 18.8042 13.7252 16 13.9776V11.9646C17.6967 11.7222 19 10.264 19 8.5C19 7.11935 18.2016 5.92603 17.041 5.35635L17.5962 3.41321Z"></path></svg>
+      </div>
+      <div class="tile-title">Heroku Key-Value Store</div>
+    </div>
+    </a>
+    <a href="">
+    <div class="tile">
+      <div class="tile-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M18.364 18.3641C21.8787 14.8493 21.8787 9.15086 18.364 5.63614L19.7782 4.22192C24.0739 8.51769 24.0739 15.4825 19.7782 19.7783L18.364 18.3641ZM5.63604 5.63614C2.12132 9.15086 2.12132 14.8493 5.63604 18.3641L4.22183 19.7783C-0.0739417 15.4825 -0.0739417 8.51769 4.22183 4.22192L5.63604 5.63614ZM15.5355 15.5355C17.4882 13.5829 17.4882 10.4171 15.5355 8.46445L16.9497 7.05024C19.6834 9.78391 19.6834 14.2161 16.9497 16.9497L15.5355 15.5355ZM8.46447 8.46445C6.51184 10.4171 6.51184 13.5829 8.46447 15.5355L7.05025 16.9497C4.31658 14.2161 4.31658 9.78391 7.05025 7.05024L8.46447 8.46445ZM12 14.0001C13.1046 14.0001 14 13.1046 14 12.0001C14 10.8955 13.1046 10.0001 12 10.0001C10.8954 10.0001 10 10.8955 10 12.0001C10 13.1046 10.8954 14.0001 12 14.0001Z"></path></svg>
+      </div>
+      <div class="tile-title">Apache Kafka on Heroku</div>
+    </div>
+    </a>
+    <a href="">
+    <div class="tile">
+      <div class="tile-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M13.0607 8.11097L14.4749 9.52518C17.2086 12.2589 17.2086 16.691 14.4749 19.4247L14.1214 19.7782C11.3877 22.5119 6.95555 22.5119 4.22188 19.7782C1.48821 17.0446 1.48821 12.6124 4.22188 9.87874L5.6361 11.293C3.68348 13.2456 3.68348 16.4114 5.6361 18.364C7.58872 20.3166 10.7545 20.3166 12.7072 18.364L13.0607 18.0105C15.0133 16.0578 15.0133 12.892 13.0607 10.9394L11.6465 9.52518L13.0607 8.11097ZM19.7782 14.1214L18.364 12.7072C20.3166 10.7545 20.3166 7.58872 18.364 5.6361C16.4114 3.68348 13.2456 3.68348 11.293 5.6361L10.9394 5.98965C8.98678 7.94227 8.98678 11.1081 10.9394 13.0607L12.3536 14.4749L10.9394 15.8891L9.52518 14.4749C6.79151 11.7413 6.79151 7.30911 9.52518 4.57544L9.87874 4.22188C12.6124 1.48821 17.0446 1.48821 19.7782 4.22188C22.5119 6.95555 22.5119 11.3877 19.7782 14.1214Z"></path></svg>
+      </div>
+      <div class="tile-title">Heroku AppLink</div>
+    </div>
+    </a>
+  </div>
+
+  <!-- Grid 3 -->
+  <div class="grid">
+    <a href="">
+    <div class="tile">
+      <div class="tile-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M17.5 2.5L23 12L17.5 21.5H6.5L1 12L6.5 2.5H17.5Z"></path></svg>
+      </div>
+      <div class="tile-title">CI, Pipelines & Review apps</div>
+    </div>
+    </a>
+    <a href="">
+    <div class="tile">
+      <div class="tile-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M17.5 2.47363L23 11.9999L17.5 21.5262H6.5L1 11.9999L6.5 2.47363H17.5ZM16.3453 4.47363H7.6547L3.3094 11.9999L7.6547 19.5262H16.3453L20.6906 11.9999L16.3453 4.47363ZM8.63398 8.16979L10.366 7.16979L15.366 15.83L13.634 16.83L8.63398 8.16979Z"></path></svg>
+      </div>
+      <div class="tile-title">Platform Error Codes</div>
+    </div>
+    </a>
+    <a href="">
+    <div class="tile">
+      <div class="tile-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM4 5V19H20V5H4ZM12 15H18V17H12V15ZM8.66685 12L5.83842 9.17157L7.25264 7.75736L11.4953 12L7.25264 16.2426L5.83842 14.8284L8.66685 12Z"></path></svg>
+      </div>
+      <div class="tile-title">Command Line Tools</div>
+    </div>
+    </a>
+    <a href="">
+    <div class="tile">
+      <div class="tile-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(108,82,160,1)"><path d="M20.0833 15.1999L21.2854 15.9212C21.5221 16.0633 21.5989 16.3704 21.4569 16.6072C21.4146 16.6776 21.3557 16.7365 21.2854 16.7787L12.5144 22.0412C12.1977 22.2313 11.8021 22.2313 11.4854 22.0412L2.71451 16.7787C2.47772 16.6366 2.40093 16.3295 2.54301 16.0927C2.58523 16.0223 2.64413 15.9634 2.71451 15.9212L3.9166 15.1999L11.9999 20.0499L20.0833 15.1999ZM20.0833 10.4999L21.2854 11.2212C21.5221 11.3633 21.5989 11.6704 21.4569 11.9072C21.4146 11.9776 21.3557 12.0365 21.2854 12.0787L11.9999 17.6499L2.71451 12.0787C2.47772 11.9366 2.40093 11.6295 2.54301 11.3927C2.58523 11.3223 2.64413 11.2634 2.71451 11.2212L3.9166 10.4999L11.9999 15.3499L20.0833 10.4999ZM12.5144 1.30864L21.2854 6.5712C21.5221 6.71327 21.5989 7.0204 21.4569 7.25719C21.4146 7.32757 21.3557 7.38647 21.2854 7.42869L11.9999 12.9999L2.71451 7.42869C2.47772 7.28662 2.40093 6.97949 2.54301 6.7427C2.58523 6.67232 2.64413 6.61343 2.71451 6.5712L11.4854 1.30864C11.8021 1.11864 12.1977 1.11864 12.5144 1.30864ZM11.9999 3.33233L5.88723 6.99995L11.9999 10.6676L18.1126 6.99995L11.9999 3.33233Z"></path></svg>
+      </div>
+      <div class="tile-title">Add-on Provider</div>
+    </div>
+    </a>
+  </div>
+</div>
+  <section class="changelog">
+    <h3>Changelog</h3>
+    <div class="changelog-grid">
+      <div class="changelog-item">
+        <svg viewBox="0 0 24 24"><path d="M5 4h14a2 2 0 0 1 2 2v14l-4-4H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>
+        <a href="#">Python 3.13.6 is now available</a>
+      </div>
+      <div class="changelog-item">
+        <svg viewBox="0 0 24 24"><path d="M5 4h14a2 2 0 0 1 2 2v14l-4-4H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>
+        <a href="#">Default Ruby version for new apps is now 3.3.9</a>
+      </div>
+      <div class="changelog-item">
+        <svg viewBox="0 0 24 24"><path d="M5 4h14a2 2 0 0 1 2 2v14l-4-4H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>
+        <a href="#">Python buildpacks updated to pip 25.2, Poetry 2.1.4 and uv 0.8.5</a>
+      </div>
+      <div class="changelog-item">
+        <svg viewBox="0 0 24 24"><path d="M5 4h14a2 2 0 0 1 2 2v14l-4-4H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>
+        <a href="#">Python classic buildpack no longer installs SQLite headers and CLI</a>
+      </div>
+    </div>
+  </section>
+    <section class="card-section">
+    <div class="card">
+      <h4>
+        COMMUNITY
+        <svg class="icon-external" viewBox="0 0 24 24">
+          <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42L17.59 5H14V3z"/>
+          <path d="M5 5h9v2H7v10h10v-7h2v9H5V5z"/>
+        </svg>
+      </h4>
+      <p>Engage with a community of passionate experts to get the answers you need</p>
+      <a href="#" class="button">Visit Stack Overflow</a>
+    </div>
+    <div class="card">
+      <h4>
+        HEROKU STATUS
+        <svg class="icon-external" viewBox="0 0 24 24">
+          <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42L17.59 5H14V3z"/>
+          <path d="M5 5h9v2H7v10h10v-7h2v9H5V5z"/>
+        </svg>
+      </h4>
+      <p>Check for known issues on the Heroku Status website</p>
+      <a href="#" class="button">Visit Heroku Status</a>
+    </div>
+  </section>
+    <footer>
+    <div class="footer-left">
+      <a href="#">heroku.com</a>
+      <a href="#">Blogs</a>
+      <a href="#">Careers</a>
+      <a href="#">Documentation</a>
+    </div>
+    <div class="footer-right">
+      <a href="#">Terms of Service</a>
+      <a href="#">Privacy</a>
+      <a href="#">Cookies</a>
+      <a href="#">Cookie Preferences</a>
+      <span>© 2025 Salesforce.com</span>
+      <a href="#" class="privacy-choices">
+      <img src="images/checked unchecked.png" alt="">
+        <span class="privacy">Your Privacy Choices</span>
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
